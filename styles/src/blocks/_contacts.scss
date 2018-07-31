@@ -1,0 +1,22 @@
+.contacts{
+    text-align: center;
+    padding: 44px 0 49px 0;
+    &__title{
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 40px;
+        margin-bottom: 24px;
+    }
+    &__link{
+        display: inline-block;
+        width: 248px;
+        height: 64px;
+        border-radius: 32px;
+        font-size: 18px;
+        line-height: 64px;
+        font-weight: 900;
+        color:#fff;
+        background:linear-gradient(135deg, #2EE87B 0%, #2EE8D6 100%);
+        letter-spacing: .5px;
+    }
+}

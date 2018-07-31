@@ -1,0 +1,93 @@
+.bold{
+    font-weight: 700;
+}
+html,
+body{
+    height: 100%;
+}
+
+body{
+    font-family:$museo;
+    font-size: $f-size;
+    color:$black;
+    background-color: #fff;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+
+    &.no-scroll {
+        overflow-y: hidden;
+    }
+    position: relative;
+}
+.triangle{
+    width: 81vw;
+    height: 32vw;
+    background: #fa7099;
+    background: -moz-linear-gradient(top, #fa7099 0%, #fdd945 100%);
+    background: -webkit-linear-gradient(top, #fa7099 0%,#fdd945 100%);
+    background: linear-gradient(to bottom, #fa7099 0%,#fdd945 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa7099', endColorstr='#fdd945',GradientType=0 );
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+    &:after{
+        content: '';
+        width: 0;
+        height: 0;
+        display: block;
+        border-style: solid;
+        border-width: 32vw 0 0 83vw;
+        border-color: transparent transparent transparent #fff;
+        left: 0;
+        bottom: 0;
+    }
+    @media (max-width: 1023px){
+        width: 100vw;
+        height: 150px;
+        &:after{
+            display: none;
+        }
+    }
+}
+
+#skrollr-body{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+}
+.wrapper{
+    max-width: 1175px;
+    width: auto;
+    margin: 0 auto;
+    z-index: 2;
+    padding: 0 20px;
+    box-sizing: content-box;
+    flex: 1;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.clearfix {
+    &:before{
+        display: table;
+        content: "";
+        line-height: 0;
+    }
+    &:after{
+        display: table;
+        content: "";
+        line-height: 0;
+        clear: both;
+    }
+}

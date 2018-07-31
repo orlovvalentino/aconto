@@ -1,0 +1,109 @@
+[class^="icon-"]:after, [class*=" icon-"]:after {
+    content: "";
+    display: inline-block;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+    background-color: #fff;
+    position: absolute;
+}
+.icon-arr-link-bottom:after{
+       width: 12px;
+       height: 12px;
+       -webkit-mask-image: url(../../img/icons/arr-link.svg);
+       mask-image: url(../../img/icons/arr-link.svg);
+       transform: rotate(90deg);
+
+}
+.icon-arr-link:after{
+        width: 12px;
+        height: 12px;
+        -webkit-mask-image: url(../../img/icons/arr-link.svg);
+        mask-image: url(../../img/icons/arr-link.svg);
+}
+
+.icon-arr-right:after{
+        width: 16px;
+        height: 16px;
+        -webkit-mask-image: url(../../img/icons/arr-right.svg);
+        mask-image: url(../../img/icons/arr-right.svg);
+}
+.icon-bed:after{
+    width: 16px;
+    height: 16px;
+    -webkit-mask-image: url(../../img/icons/bed.svg);
+    mask-image: url(../../img/icons/bed.svg);
+}
+.icon-wifi:after{
+    width: 16px;
+    height: 16px;
+    -webkit-mask-image: url(../../img/icons/wifi.svg);
+    mask-image: url(../../img/icons/wifi.svg);
+}
+.icon-wifi:after{
+    width: 16px;
+    height: 16px;
+    -webkit-mask-image: url(../../img/icons/wifi.svg);
+    mask-image: url(../../img/icons/wifi.svg);
+}
+.icon-shower:after{
+    width: 16px;
+    height: 16px;
+    -webkit-mask-image: url(../../img/icons/shower.svg);
+    mask-image: url(../../img/icons/shower.svg);
+}
+.icon-towl:after{
+    width: 16px;
+    height: 16px;
+    -webkit-mask-image: url(../../img/icons/towl.svg);
+    mask-image: url(../../img/icons/towl.svg);
+}
+.icon-dryer:after{
+    width: 16px;
+    height: 16px;
+    -webkit-mask-image: url(../../img/icons/dryer.svg);
+    mask-image: url(../../img/icons/dryer.svg);
+}
+.icon-vk:after{
+    width: 22px;
+    height: 22px;
+    -webkit-mask-image: url(../../img/icons/vk.svg);
+    mask-image: url(../../img/icons/vk.svg);
+    transform:translateY(-50%);
+    top:50%;
+}
+.icon-fb:after{
+    width: 22px;
+    height: 22px;
+    -webkit-mask-image: url(../../img/icons/fb.svg);
+    mask-image: url(../../img/icons/fb.svg);
+    transform:translateY(-50%);
+    top:50%;
+}
+.icon-in:after{
+    width: 22px;
+    height: 22px;
+    -webkit-mask-image: url(../../img/icons/inst.svg);
+    mask-image: url(../../img/icons/inst.svg);
+    transform:translateY(-50%);
+    top:50%;
+}
+.icon-comments:after{
+    width: 20px;
+    height: 20px;
+    -webkit-mask-image: url(../../img/icons/comments.svg);
+    mask-image: url(../../img/icons/comments.svg);
+    transform:translateY(-50%);
+    top:50%;
+}
+.icon-likes:after{
+    width: 20px;
+    height: 20px;
+    -webkit-mask-image: url(../../img/icons/likes.svg);
+    mask-image: url(../../img/icons/likes.svg);
+    transform:translateY(-50%);
+    top:50%;
+}

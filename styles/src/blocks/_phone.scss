@@ -1,0 +1,61 @@
+.iphone {
+    position: absolute;
+    width: 280px;
+    height: 560px;
+    right: 181px;
+    top: 0;
+    border-radius: 46px;
+    overflow: hidden;
+    .content &{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__divice {
+        background: url(../../img/iphone.png) center 0 no-repeat;
+        background-size: 100% 100%;
+        padding: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+    }
+    &__slide{
+        position: relative;
+        z-index: 1;
+        margin: 0 7%;
+        height: 100%;
+        background: #fff;
+
+        &__w{
+            width: 100%;
+            height: 100%;
+            transition: .3s;
+        }
+        img{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+
+@media (max-width: 1279px){
+    .iphone{
+        right: 0;
+    }
+}
+@media (max-width: 767px){
+    .iphone{
+        display: none;
+    }
+    //.device {
+    //    -webkit-transform-origin: top left;
+    //    -webkit-transform: scale(1);
+    //    transform-origin: top left;
+    //    transform: scale(1);
+    //}
+}
+

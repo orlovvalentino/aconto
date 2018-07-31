@@ -1,0 +1,192 @@
+.contents{
+    position: relative;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    @media (max-width: 1023px) and (min-width: 768px){
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    @media (max-width: 767px){
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 34px;
+    @media (max-width: 1023px) and (min-width: 768px){
+        font-size: 16px;
+    }
+    @media (max-width: 767px){
+        font-size: 14px;
+    }
+}
+.content-static{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    p{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+        color: #888;
+        margin-bottom: 20px;
+        a{
+            color:#0000FF;
+            text-decoration: underline;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        @media (max-width: 1023px) and (min-width: 768px){
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        @media (max-width: 767px){
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+    }
+}
+.content{
+    position: relative;
+    &__i{
+
+    }
+    &__w{
+        position: relative;
+    }
+
+    &-full-height{
+        min-height: 600px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        @media (max-width: 1023px) and (min-width: 768px){
+            max-height: 500px;
+            max-width: calc(100vw - 350px);
+        }
+        @media (max-width: 1279px) and (min-width: 1024px){
+            max-height: 500px;
+            max-width: calc(100vw - 350px);
+        }
+        @media (max-width: 767px){
+            max-width: none;
+            height: 350px;
+            min-height: 0;
+        }
+        &.content-first{
+            height: calc(100vh - 105px);
+            margin-bottom: 100px;
+            position: static;
+            @media (max-width: 767px){
+                height: 350px;
+                min-height: 0;
+                margin-bottom: 0;
+            }
+        }
+    }
+    &.reviews{
+        padding: 45px 0 69px;
+        color:#fff;
+        background: #b385fd;
+        background: -moz-linear-gradient(left, #b385fd 0%, #82bffb 50%, #50fcfa 100%);
+        background: -webkit-linear-gradient(left, #b385fd 0%,#82bffb 50%,#50fcfa 100%);
+        background: linear-gradient(to right, #b385fd 0%,#82bffb 50%,#50fcfa 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b385fd', endColorstr='#50fcfa',GradientType=1 );
+        .title{
+            margin-bottom: 20px;
+        }
+    }
+}
+.title{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 9px;
+    @media (max-width: 1023px) and (min-width: 768px){
+        font-size: 40px;
+    }
+    @media (max-width: 767px){
+        font-size: 30px;
+    }
+}
+.subtitle{
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 300;
+    color:$gray;
+    .reviews &{
+        color:#fff;
+    }
+    @media (max-width: 1023px) and (min-width: 768px){
+        font-size: 16px;
+        line-height: 25px;
+    }
+    @media (max-width: 767px){
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.button {
+    background: #000;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+    color: #2b4349;
+    padding: 18px 42px;
+    border: 0;
+    border-radius: 7px;
+    text-decoration: none;
+    -webkit-transition: all ease .2s;
+    -o-transition: all ease .2s;
+    transition: all ease .2s;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.button.store {
+    padding: 9px 7px 10px 43px;
+    color: #ebf5f9;
+    margin-right: 0;
+    height: 60px;
+    vertical-align: top;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: url(../../img/icon-apple-store@2x.png) 0 no-repeat #000;
+    background-position: 9px 22px;
+    background-size: 24px;
+    .app{
+        font-size: 27px;
+        line-height: 27px;
+    }
+}
+
+.button.store:hover {
+    color: #f7fdff
+}
+
+.button.store .small {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 12px;
+    vertical-align: top;
+    margin-bottom: 5px;
+}
+
+.button.store.small {
+    padding: 5px 10px 11px 35px;
+    text-align: left;
+    font-size: 16px;
+    height: 40px;
+    line-height: 30px;
+    margin-left: 0;
+    text-shadow: none;
+    margin-bottom: 5px;
+}
+
+
+

@@ -1,0 +1,24 @@
+@import "modules/reset";
+@import "modules/variables";
+@import "modules/mixin";
+@import "modules/fonts";
+
+@import "modules/global";
+@import "modules/icons";
+
+
+//HEADER
+@import "blocks/header";
+
+
+
+//CONTENT
+@import "blocks/content";
+@import "blocks/phone";
+@import "blocks/features";
+@import "blocks/slider";
+@import "blocks/contacts";
+
+
+//FOOTER
+@import "blocks/footer";
